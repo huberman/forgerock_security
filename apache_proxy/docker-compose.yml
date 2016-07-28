@@ -1,0 +1,6 @@
+apache_proxy:
+    image: apache_proxy
+    ports:
+    - 8080:80
+    environment:
+        UNDERLYING: "http://tis.oxyware.com:8082"

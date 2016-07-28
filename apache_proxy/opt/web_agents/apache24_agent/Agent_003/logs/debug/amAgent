@@ -1,0 +1,127 @@
+2016-07-27 15:59:06.097       -1 6725:55ef6e7431e0 all: =======================================
+2016-07-27 15:59:06.097       -1 6725:55ef6e7431e0 all: Version: 3.3.4
+2016-07-27 15:59:06.097       -1 6725:55ef6e7431e0 all: Revision: 12082
+2016-07-27 15:59:06.097       -1 6725:55ef6e7431e0 all: Build Date: Jan 15 2015 17:13:06
+2016-07-27 15:59:06.097       -1 6725:55ef6e7431e0 all: Build Machine: constable.internal.forgerock.com
+2016-07-27 15:59:06.097       -1 6725:55ef6e7431e0 all: =======================================
+2016-07-27 15:59:06.102       -1 6725:55ef6e7431e0 all: naming_validator(): validation disabled
+2016-07-27 16:22:00.925       -1 6725:55ef6e607890 all: =======================================
+2016-07-27 16:22:00.925       -1 6725:55ef6e607890 all: Version: 3.3.4
+2016-07-27 16:22:00.925       -1 6725:55ef6e607890 all: Revision: 12082
+2016-07-27 16:22:00.925       -1 6725:55ef6e607890 all: Build Date: Jan 15 2015 17:13:06
+2016-07-27 16:22:00.925       -1 6725:55ef6e607890 all: Build Machine: constable.internal.forgerock.com
+2016-07-27 16:22:00.925       -1 6725:55ef6e607890 all: =======================================
+2016-07-27 16:22:00.930       -1 6725:55ef6e607890 all: naming_validator(): validation disabled
+2016-07-27 16:22:29.861       -1 6725:55ef6e5dcb10 all: =======================================
+2016-07-27 16:22:29.861       -1 6725:55ef6e5dcb10 all: Version: 3.3.4
+2016-07-27 16:22:29.861       -1 6725:55ef6e5dcb10 all: Revision: 12082
+2016-07-27 16:22:29.861       -1 6725:55ef6e5dcb10 all: Build Date: Jan 15 2015 17:13:06
+2016-07-27 16:22:29.861       -1 6725:55ef6e5dcb10 all: Build Machine: constable.internal.forgerock.com
+2016-07-27 16:22:29.861       -1 6725:55ef6e5dcb10 all: =======================================
+2016-07-27 16:22:29.866       -1 6725:55ef6e5dcb10 all: naming_validator(): validation disabled
+2016-07-27 16:24:14.514    Error 7044:55ef6e5dcb10 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.515    Error 7048:55ef6e788620 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.515    Error 7044:55ef6e5dcb10 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.515    Error 7048:55ef6e788620 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.515    Error 7044:55ef6e5dcb10 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.515    Error 7044:55ef6e5dcb10 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.515    Error 7044:55ef6e5dcb10 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.515    Error 7044:55ef6e5dcb10 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.515    Error 7044:55ef6e5dcb10 AuthService: BaseService::doRequest() Invoking markSeverDown
+2016-07-27 16:24:14.515    Error 7045:55ef6e7888f0 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.515    Error 7045:55ef6e7888f0 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.515    Error 7045:55ef6e7888f0 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.515    Error 7045:55ef6e7888f0 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.515    Error 7045:55ef6e7888f0 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.515    Error 7045:55ef6e7888f0 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.515    Error 7045:55ef6e7888f0 AuthService: BaseService::doRequest() Invoking markSeverDown
+2016-07-27 16:24:14.515    Error 7048:55ef6e788620 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.516    Error 7048:55ef6e788620 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.516    Error 7048:55ef6e788620 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.516    Error 7048:55ef6e788620 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.516    Error 7048:55ef6e788620 AuthService: BaseService::doRequest() Invoking markSeverDown
+2016-07-27 16:24:14.519    Error 7047:7fc55c000d80 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.519    Error 7047:7fc55c000d80 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.519    Error 7047:7fc55c000d80 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.519    Error 7047:7fc55c000d80 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.519    Error 7047:7fc55c000d80 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.519    Error 7047:7fc55c000d80 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.519    Error 7047:7fc55c000d80 AuthService: BaseService::doRequest() Invoking markSeverDown
+2016-07-27 16:24:14.524    Error 7043:7fc548000d80 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.524    Error 7043:7fc548000d80 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.524    Error 7043:7fc548000d80 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.524    Error 7043:7fc548000d80 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.524    Error 7043:7fc548000d80 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.524    Error 7043:7fc548000d80 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.524    Error 7043:7fc548000d80 AuthService: BaseService::doRequest() Invoking markSeverDown
+2016-07-27 16:24:14.718    Error 7100:55ef6e7899f0 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.718    Error 7100:55ef6e7899f0 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.718    Error 7100:55ef6e7899f0 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.719    Error 7100:55ef6e7899f0 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.719    Error 7100:55ef6e7899f0 all: PR_GetAddrInfoByName() returned error: A directory lookup on a network address has failed
+2016-07-27 16:24:14.719    Error 7100:55ef6e7899f0 AuthService: BaseService::doRequest() caught NSPRException: PR_GetAddrInfoByName called by Connection::Connection returned PR_DIRECTORY_LOOKUP_ERROR
+2016-07-27 16:24:14.719    Error 7100:55ef6e7899f0 AuthService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.067       -1 3023:5585f0356160 all: =======================================
+2016-07-28 12:09:49.068       -1 3023:5585f0356160 all: Version: 3.3.4
+2016-07-28 12:09:49.068       -1 3023:5585f0356160 all: Revision: 12082
+2016-07-28 12:09:49.068       -1 3023:5585f0356160 all: Build Date: Jan 15 2015 17:13:06
+2016-07-28 12:09:49.068       -1 3023:5585f0356160 all: Build Machine: constable.internal.forgerock.com
+2016-07-28 12:09:49.068       -1 3023:5585f0356160 all: =======================================
+2016-07-28 12:09:49.105       -1 3023:5585f0356160 all: naming_validator(): validation disabled
+2016-07-28 12:09:49.108    Error 3025:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.109    Error 3025:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.110    Error 3025:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.110    Error 3025:5585f0356160 NamingService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.110    Error 3025:5585f0356160 Agent Profile Service: isRESTServiceAvailable(): An error occured while doing naming request. NSPR error
+2016-07-28 12:09:49.110    Error 3028:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.110    Error 3030:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.110    Error 3029:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.110    Error 3025:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.110    Error 3028:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.110    Error 3026:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.110    Error 3030:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.111    Error 3029:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.111    Error 3025:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.111    Error 3028:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.111    Error 3028:5585f0356160 NamingService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.111    Error 3028:5585f0356160 Agent Profile Service: isRESTServiceAvailable(): An error occured while doing naming request. NSPR error
+2016-07-28 12:09:49.111    Error 3026:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.111    Error 3030:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.111    Error 3030:5585f0356160 NamingService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.111    Error 3030:5585f0356160 Agent Profile Service: isRESTServiceAvailable(): An error occured while doing naming request. NSPR error
+2016-07-28 12:09:49.112    Error 3025:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.112    Error 3029:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.112    Error 3025:5585f0356160 NamingService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.112    Error 3025:5585f0356160 Agent Profile Service: isRESTServiceAvailable(): An error occured while doing naming request. NSPR error
+2016-07-28 12:09:49.112    Error 3028:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.112    Error 3025:5585f0356160 all: agent_worker_init() am_agent_init failed
+2016-07-28 12:09:49.112    Error 3029:5585f0356160 NamingService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.112    Error 3029:5585f0356160 Agent Profile Service: isRESTServiceAvailable(): An error occured while doing naming request. NSPR error
+2016-07-28 12:09:49.112    Error 3026:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.112    Error 3026:5585f0356160 NamingService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.112    Error 3026:5585f0356160 Agent Profile Service: isRESTServiceAvailable(): An error occured while doing naming request. NSPR error
+2016-07-28 12:09:49.112    Error 3030:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.112    Error 3028:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.112    Error 3029:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.112    Error 3026:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.112    Error 3030:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.113    Error 3029:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.113    Error 3026:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.113    Error 3028:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.113    Error 3028:5585f0356160 NamingService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.113    Error 3028:5585f0356160 Agent Profile Service: isRESTServiceAvailable(): An error occured while doing naming request. NSPR error
+2016-07-28 12:09:49.113    Error 3028:5585f0356160 all: agent_worker_init() am_agent_init failed
+2016-07-28 12:09:49.113    Error 3030:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.113    Error 3030:5585f0356160 NamingService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.113    Error 3030:5585f0356160 Agent Profile Service: isRESTServiceAvailable(): An error occured while doing naming request. NSPR error
+2016-07-28 12:09:49.113    Error 3029:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.113    Error 3029:5585f0356160 NamingService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.113    Error 3029:5585f0356160 Agent Profile Service: isRESTServiceAvailable(): An error occured while doing naming request. NSPR error
+2016-07-28 12:09:49.113    Error 3026:5585f0356160 NamingService: BaseService::doRequest() caught NSPRException: PR_Connect called by Connection::Connection PR_Connect returned PR_CONNECT_RESET_ERROR
+2016-07-28 12:09:49.113    Error 3026:5585f0356160 NamingService: BaseService::doRequest() Invoking markSeverDown
+2016-07-28 12:09:49.113    Error 3029:5585f0356160 all: agent_worker_init() am_agent_init failed
+2016-07-28 12:09:49.113    Error 3026:5585f0356160 Agent Profile Service: isRESTServiceAvailable(): An error occured while doing naming request. NSPR error
+2016-07-28 12:09:49.113    Error 3026:5585f0356160 all: agent_worker_init() am_agent_init failed
+2016-07-28 12:09:49.113    Error 3030:5585f0356160 all: agent_worker_init() am_agent_init failed
+2016-07-28 13:01:44.912    Error 3025:5585f0356160 Agent Profile Service: Error in rest url :'' 
+2016-07-28 13:01:44.912    Error 3025:5585f0356160 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user tisdemo2, using REST service. Status: REST attributes service encountered an error 

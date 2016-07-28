@@ -1,0 +1,188 @@
+[07/27/2016 15:52:23:320 UTC] AdminTool is now starting up.
+[07/27/2016 15:52:23:323 UTC] Trying to acquire lock.
+[07/27/2016 15:52:23:324 UTC] Lock acquired = true
+[07/27/2016 15:52:23:324 UTC] AdminTool.checkImplicitLicenseAcceptance(): License check will be enforced if applicable.
+[07/27/2016 15:52:23:337 UTC] AdminTool.run(): License check for option: --uninstall, required: false
+[07/27/2016 15:52:23:337 UTC] AdminTool.run(): License check required: false
+[07/27/2016 15:52:23:337 UTC] AdminTool.run(): Skipping license check
+[07/27/2016 15:52:23:337 UTC] Trying to dispatch to option handler for: --uninstall
+[07/27/2016 15:52:23:366 UTC] Run Info: InstallRunInfo For: Uninstall 
+Welcome message: 
+Welcome to the OpenAM Policy Agent for Apache Server.
+Exit message: 
+Thank you for using OpenAM Policy Agent
+HomeDirLocator: com.sun.identity.agents.install.apache24.HomeDirLocator
+Instance Finder Interactions: 
+InteractionInfo:
+    LookupKey    : CONFIG_DIR
+    i18n         : i18n(INT_CONFIG_DIR, apache24Tools)
+    Type         : install
+    Is-Required  : true
+    Is-Persistent: true
+    optional-display: true
+     valueNormalizerClass    : com.sun.identity.install.tools.configurator.PathNormalizer
+    DefaultValueFinderInfo: 
+        [Static: null, Class: com.sun.identity.agents.install.apache24.ConfigFinder]
+    ValidationInfo: 
+        Validation[0] :[Name: DIR_EXISTS, Class: com.sun.identity.install.tools.configurator.FileSystemValidator, Property Map: {}]
+        Validation[1] :[Name: VALID_APC24_CONFIG_DIR, Class: com.sun.identity.agents.install.apache24.ConfigDirValidator, Property Map: {}]
+
+Common Interactions: 
+Instance Interactions: 
+Common Tasks: 
+Instance Tasks: 
+  [ DELETE_LAYOUT: class=com.sun.identity.install.tools.configurator.DeleteLayoutTask, Property Map: {}]
+  [ UNCONFIGURE_HTTPD_CONF: class=com.sun.identity.agents.install.apache24.UnconfigureHttpdConfTask, Property Map: {}]
+Check optional-display attribute:false
+--------------------------------------------------
+
+[07/27/2016 15:52:23:367 UTC] InstallHandler: invoked with 0 arguments.
+[07/27/2016 15:52:23:367 UTC] SingleUninstallDriver: Starting Uninstall
+[07/27/2016 15:52:23:374 UTC] Creating Install Interaction
+[07/27/2016 15:52:23:378 UTC] InstallDataStore : loading an existing store.
+[07/27/2016 15:52:23:462 UTC] Driver.executeIFinderInteractions() Running Instance 
+Finder interactions ..
+[07/27/2016 15:52:23:462 UTC] InteractionsRunnerBase: Calling skipInteraction on: 0
+[07/27/2016 15:52:23:462 UTC] InteractionsRunnerBase: Running Interaction[0].
+[07/27/2016 15:52:23:463 UTC] OSChecker.getOS() threw exception : 
+java.lang.NumberFormatException: For input string: "4.14-24.50.amzn1.x86_64"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at com.sun.identity.install.tools.util.OSChecker.getOS(OSChecker.java:52)
+	at com.sun.identity.install.tools.util.OSChecker.<clinit>(OSChecker.java:265)
+	at com.sun.identity.agents.install.apache24.ConfigFinder.getDefaultConfigDirectoryPath(Unknown Source)
+	at com.sun.identity.agents.install.apache24.ConfigFinder.getDefaultValue(Unknown Source)
+	at com.sun.identity.install.tools.configurator.UserDataInteraction.processDefaultValFromAllSources(UserDataInteraction.java:484)
+	at com.sun.identity.install.tools.configurator.InstallInteraction.setDefaultValue(InstallInteraction.java:261)
+	at com.sun.identity.install.tools.configurator.InstallInteraction.interact(InstallInteraction.java:66)
+	at com.sun.identity.install.tools.configurator.InteractionsRunnerBase.runInteraction(InteractionsRunnerBase.java:180)
+	at com.sun.identity.install.tools.configurator.InteractionsRunnerBase.runInteractions(InteractionsRunnerBase.java:96)
+	at com.sun.identity.install.tools.configurator.InstFinderInteractionsRunner.runInteractions(InstFinderInteractionsRunner.java:55)
+	at com.sun.identity.install.tools.configurator.Driver.executeIFinderInteractions(Driver.java:95)
+	at com.sun.identity.install.tools.configurator.Driver.executeAllInteractions(Driver.java:72)
+	at com.sun.identity.install.tools.configurator.UninstallDriver.executeInteractionsAndTasks(UninstallDriver.java:97)
+	at com.sun.identity.install.tools.configurator.SingleUninstallDriver.executeInteractionsAndTasks(SingleUninstallDriver.java:33)
+	at com.sun.identity.install.tools.configurator.SingleUninstallDriver.uninstall(SingleUninstallDriver.java:73)
+	at com.sun.identity.install.tools.handler.UninstallHandler.handleRequest(UninstallHandler.java:64)
+	at com.sun.identity.install.tools.admin.AdminTool.dispatch(AdminTool.java:230)
+	at com.sun.identity.install.tools.admin.AdminTool.run(AdminTool.java:133)
+	at com.sun.identity.install.tools.launch.AdminToolLauncher.launchAdminTool(AdminToolLauncher.java:201)
+	at com.sun.identity.install.tools.launch.AdminToolLauncher.main(AdminToolLauncher.java:313)
+[07/27/2016 15:52:30:030 UTC] FileSystemValidator : Is directory : /etc/httpd/conf valid ? true
+[07/27/2016 15:52:30:037 UTC] ConfigDirValidator : Is Apache Config dir /etc/httpd/conf valid ? true
+[07/27/2016 15:52:30:037 UTC] InstallInteraction.processData: null
+[07/27/2016 15:52:30:037 UTC] UserDataInteraction.getNormalizedValue: input: /etc/httpd/conf, normalized value: /etc/httpd/conf
+[07/27/2016 15:52:30:038 UTC] InteractionsRunnerBase: Interaction resulted in CONTINUE @ Index: 0
+[07/27/2016 15:52:30:038 UTC] InteractionsRunnerBase.runInteractions() Exiting at index: 1
+[07/27/2016 15:52:30:038 UTC] HomeDirLocator : Apache Home directory = /etc/httpd
+[07/27/2016 15:52:30:040 UTC] InstanceFinder : initializing instance by loading the properties
+[07/27/2016 15:52:30:040 UTC] OrderedPropertyStore: Loading the properties from file '/opt/web_agents/apache24_agent/data/.amAgentLookup'.
+[07/27/2016 15:52:30:041 UTC] OrderedPropertyStore.load() Contents: 
+*** BEGIN InstFinderStore Data *******
+     Product_Instance_Count= 2
+     /etc/httpd/conf|= Agent_002
+
+*** END InstFinderStore Data **********
+
+[07/27/2016 15:52:30:041 UTC] InstallState : initalizing the state
+[07/27/2016 15:52:30:041 UTC] InstanceFinder.createUniqueKey() - key: /etc/httpd/conf|
+[07/27/2016 15:52:30:041 UTC] InstanceFinder.getInstanceName(): instanceName found in the properties.
+[07/27/2016 15:52:30:042 UTC] InstallState(): Existing data store found. Creating state.
+[07/27/2016 15:52:30:042 UTC] InstallState : initializing. Instance data found for instance Agent_002
+[07/27/2016 15:52:30:043 UTC] Driver.executeIFinderInteractions() after execution StateAccess is: 
+*** BEGIN PersistentStateAccess ************
+GlobalData:
+          instanceName: null
+    isInstanceData: false
+    nameValueMap:
+      APC24_HTTPD_FILE = /etc/httpd/conf/httpd.conf
+      NOTIFICATION_ENABLE = false
+      AM_SERVICES_PROTO = http
+      AM_SERVICES_HOST = tis.oxyware.com
+      LOG_ROTATION = false
+      APC24_HOME_DIR = /etc/httpd
+      AM_SERVICES_PORT = 8081
+      AM_SERVICES_DEPLOY_URI = /openam
+      isServerURLValid = true
+      APC24_BIN_DIR = /etc/httpd/bin
+      CONFIG_DIR = /etc/httpd/conf
+      AM_SERVER_URL = http://tis.oxyware.com:8081/openam
+InstanceData:
+          instanceName: Agent_002
+    isInstanceData: true
+    nameValueMap:
+      APC24_HTTPD_FILE = /etc/httpd/conf/httpd.conf
+      AM_SERVICES_HOST = tis.oxyware.com
+      APC24_HOME_DIR = /etc/httpd
+      AGENT_ENCRYPTED_PASSWORD = EJ6pQJxe5VqtM58MhLx0GQ==
+
+      AM_SERVICES_PORT = 8081
+      AM_SERVICES_DEPLOY_URI = /openam
+      CONFIG_FILE_PATH = /opt/web_agents/apache24_agent/Agent_002/config/OpenSSOAgentBootstrap.properties
+      AUDIT_LOG_FILENAME = amAgent_tis_oxyware_com_8080.log
+      APC24_BIN_DIR = /etc/httpd/bin
+      AGENT_PREF_PORT = 8080
+      CREATE_AGENT_PROFILE_KEY = false
+      DEBUG_LEVEL = error
+      NOTIFICATION_ENABLE = false
+      AUDIT_LOGS_DIR = /opt/web_agents/apache24_agent/Agent_002/logs/audit
+      LOG_CONFIG_FILE_PATH = /opt/web_agents/apache24_agent/config/OpenSSOAgentLogConfig.properties
+      AM_SERVICES_PROTO = http
+      AGENT_PREF_PROTO = http
+      AGENT_HOST = tis.oxyware.com
+      LOG_ROTATION = false
+      DEBUG_LOGS_DIR = /opt/web_agents/apache24_agent/Agent_002/logs/debug
+      isServerURLValid = true
+      AGENT_CONFIG_FILE_PATH = /opt/web_agents/apache24_agent/Agent_002/config/OpenSSOAgentConfiguration.properties
+      AGENT_URL = http://tis.oxyware.com:8080
+      AGENT_ENCRYPT_KEY = x5J/bHYhPr+1Y781LqtbRk1/D4JfSaYm
+      CONFIG_DIR = /etc/httpd/conf
+      PRODUCT_INSTANCE_CONFIG_DIR = /opt/web_agents/apache24_agent/Agent_002/config
+      AM_SERVER_URL = http://tis.oxyware.com:8081/openam
+CompleteData:
+      APC24_HTTPD_FILE = /etc/httpd/conf/httpd.conf
+      AM_SERVICES_HOST = tis.oxyware.com
+      APC24_HOME_DIR = /etc/httpd
+      AGENT_ENCRYPTED_PASSWORD = EJ6pQJxe5VqtM58MhLx0GQ==
+
+      AM_SERVICES_PORT = 8081
+      AM_SERVICES_DEPLOY_URI = /openam
+      CONFIG_FILE_PATH = /opt/web_agents/apache24_agent/Agent_002/config/OpenSSOAgentBootstrap.properties
+      AUDIT_LOG_FILENAME = amAgent_tis_oxyware_com_8080.log
+      APC24_BIN_DIR = /etc/httpd/bin
+      AGENT_PREF_PORT = 8080
+      CREATE_AGENT_PROFILE_KEY = false
+      DEBUG_LEVEL = error
+      NOTIFICATION_ENABLE = false
+      AUDIT_LOGS_DIR = /opt/web_agents/apache24_agent/Agent_002/logs/audit
+      LOG_CONFIG_FILE_PATH = /opt/web_agents/apache24_agent/config/OpenSSOAgentLogConfig.properties
+      AM_SERVICES_PROTO = http
+      AGENT_PREF_PROTO = http
+      AGENT_HOST = tis.oxyware.com
+      LOG_ROTATION = false
+      DEBUG_LOGS_DIR = /opt/web_agents/apache24_agent/Agent_002/logs/debug
+      isServerURLValid = true
+      AGENT_CONFIG_FILE_PATH = /opt/web_agents/apache24_agent/Agent_002/config/OpenSSOAgentConfiguration.properties
+      AGENT_URL = http://tis.oxyware.com:8080
+      AGENT_ENCRYPT_KEY = x5J/bHYhPr+1Y781LqtbRk1/D4JfSaYm
+      CONFIG_DIR = /etc/httpd/conf
+      PRODUCT_INSTANCE_CONFIG_DIR = /opt/web_agents/apache24_agent/Agent_002/config
+      AM_SERVER_URL = http://tis.oxyware.com:8081/openam
+*** END PersistentStateAccess **************
+
+[07/27/2016 15:52:37:328 UTC] Driver.displaySummary() User requested ABORT
+[07/27/2016 15:52:37:328 UTC] InstallHandler: User Requested Abort 
+[ProductInstallException Stack]
+com.sun.identity.install.tools.configurator.InstallAbortException: Aborted on User request. Exiting ...
+	at com.sun.identity.install.tools.configurator.Driver.displaySummary(Driver.java:184)
+	at com.sun.identity.install.tools.configurator.Driver.executeAllInteractions(Driver.java:80)
+	at com.sun.identity.install.tools.configurator.UninstallDriver.executeInteractionsAndTasks(UninstallDriver.java:97)
+	at com.sun.identity.install.tools.configurator.SingleUninstallDriver.executeInteractionsAndTasks(SingleUninstallDriver.java:33)
+	at com.sun.identity.install.tools.configurator.SingleUninstallDriver.uninstall(SingleUninstallDriver.java:73)
+	at com.sun.identity.install.tools.handler.UninstallHandler.handleRequest(UninstallHandler.java:64)
+	at com.sun.identity.install.tools.admin.AdminTool.dispatch(AdminTool.java:230)
+	at com.sun.identity.install.tools.admin.AdminTool.run(AdminTool.java:133)
+	at com.sun.identity.install.tools.launch.AdminToolLauncher.launchAdminTool(AdminToolLauncher.java:201)
+	at com.sun.identity.install.tools.launch.AdminToolLauncher.main(AdminToolLauncher.java:313)
+[07/27/2016 15:52:37:328 UTC] Exiting with code: 0

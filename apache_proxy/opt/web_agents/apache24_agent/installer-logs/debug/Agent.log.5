@@ -1,0 +1,40 @@
+[07/27/2016 14:46:11:532 UTC] AdminTool is now starting up.
+[07/27/2016 14:46:11:535 UTC] Trying to acquire lock.
+[07/27/2016 14:46:11:535 UTC] Lock acquired = true
+[07/27/2016 14:46:11:536 UTC] AdminTool.checkImplicitLicenseAcceptance(): License check will be enforced if applicable.
+[07/27/2016 14:46:11:548 UTC] AdminTool.run(): License check for option: --listAgents, required: true
+[07/27/2016 14:46:11:548 UTC] AdminTool.run(): License check required: true
+[07/27/2016 14:46:11:549 UTC] Starting LicenseChecker
+[07/27/2016 14:46:11:549 UTC] License files found
+[07/27/2016 14:46:11:549 UTC] User Name: ec2-user
+[07/27/2016 14:46:11:549 UTC] Checking for previous license acceptance
+[07/27/2016 14:46:11:549 UTC] Licence log file exists: /opt/web_agents/apache24_agent/data/license.log
+[07/27/2016 14:46:11:549 UTC] Checking entry for user: ec2-user
+[07/27/2016 14:46:11:550 UTC] User acceptence entry: null
+[07/27/2016 14:46:11:550 UTC] This user has not accepted the license yet
+[07/27/2016 14:46:11:550 UTC] User License Acceptance = false
+[07/27/2016 14:46:11:550 UTC] License not yet accepted.
+[07/27/2016 14:46:17:594 UTC] License agreement accepted by user.
+[07/27/2016 14:46:17:595 UTC] Attempting to make a license log entry
+[07/27/2016 14:46:17:595 UTC] Failed to create license log entry
+java.io.FileNotFoundException: /opt/web_agents/apache24_agent/data/license.log (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.sun.identity.install.tools.admin.LicenseChecker.makeLicenceLogEntry(LicenseChecker.java:143)
+	at com.sun.identity.install.tools.admin.LicenseChecker.checkLicenseAcceptance(LicenseChecker.java:88)
+	at com.sun.identity.install.tools.admin.AdminTool.run(AdminTool.java:119)
+	at com.sun.identity.install.tools.launch.AdminToolLauncher.launchAdminTool(AdminToolLauncher.java:201)
+	at com.sun.identity.install.tools.launch.AdminToolLauncher.main(AdminToolLauncher.java:313)
+[07/27/2016 14:46:17:596 UTC] Trying to dispatch to option handler for: --listAgents
+[07/27/2016 14:46:17:621 UTC] InstanceFinder : initializing instance by loading the properties
+[07/27/2016 14:46:17:621 UTC] OrderedPropertyStore: Loading the properties from file '/opt/web_agents/apache24_agent/data/.amAgentLookup'.
+[07/27/2016 14:46:17:622 UTC] OrderedPropertyStore.load() Contents: 
+*** BEGIN InstFinderStore Data *******
+     Product_Instance_Count= 1
+     /etc/httpd/conf|= Agent_001
+
+*** END InstFinderStore Data **********
+
+[07/27/2016 14:46:17:630 UTC] Exiting with code: 0

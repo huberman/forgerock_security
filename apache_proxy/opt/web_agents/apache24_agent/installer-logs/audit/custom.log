@@ -1,0 +1,39 @@
+[07/27/2016 14:49:00:467 UTC] ************************************************************************
+[07/27/2016 14:49:00:467 UTC] INSTALL LOG FILE FOR:
+[07/27/2016 14:49:00:467 UTC] ---------------------
+[07/27/2016 14:49:00:468 UTC] --------------------------------------------------------------------------
+[07/27/2016 14:49:00:468 UTC] OpenAM Policy Agent for:
+[07/27/2016 14:49:00:468 UTC] Apache Web Server 2.4.x
+[07/27/2016 14:49:00:468 UTC] --------------------------------------------------------------------------
+[07/27/2016 14:49:00:468 UTC] Version: 3.3.4 
+[07/27/2016 14:49:00:468 UTC] Revision: 12082
+[07/27/2016 14:49:00:468 UTC] Build date: Thu Jan 15 17:12:51 GMT 2015
+[07/27/2016 14:49:00:468 UTC] Build platform: constable.internal.forgerock.com
+[07/27/2016 14:49:00:468 UTC] 
+[07/27/2016 14:49:00:468 UTC] 
+[07/27/2016 14:49:00:468 UTC] ************************************************************************
+
+[07/27/2016 14:49:00:468 UTC] BEGIN SUMMARY OF USER INPUT
+[07/27/2016 14:49:00:468 UTC] ---------------------------
+[07/27/2016 14:49:00:468 UTC] Apache Server Config Directory : /etc/httpd/conf 
+[07/27/2016 14:49:00:468 UTC] OpenAM server URL : http://tis.oxyware.com:8081/openam 
+[07/27/2016 14:49:00:468 UTC] Agent URL : http://tis.oxyware.com:8080 
+[07/27/2016 14:49:00:468 UTC] Agent Profile name : amAdmin 
+[07/27/2016 14:49:00:468 UTC] Agent Profile Password file name : /tmp/pwd.txt 
+
+[07/27/2016 14:49:00:476 UTC] Creating directory layout and configuring Agent file for Agent_002 instance ...SUCCESSFUL.
+[07/27/2016 14:49:00:556 UTC] Reading data from file /tmp/pwd.txt and encrypting it ...SUCCESSFUL.
+[07/27/2016 14:49:00:556 UTC] Generating audit log file name ...SUCCESSFUL.
+[07/27/2016 14:49:00:570 UTC] Creating tag swapped OpenSSOAgentBootstrap.properties file for instance Agent_002 ...SUCCESSFUL.
+[07/27/2016 14:49:00:570 UTC] Creating the Agent Profile amAdmin ...SUCCESSFUL.
+[07/27/2016 14:49:00:571 UTC] Creating a backup for file /etc/httpd/conf/httpd.conf ...SUCCESSFUL.
+[07/27/2016 14:49:00:574 UTC] Adding Agent parameters to /opt/web_agents/apache24_agent/Agent_002/config/dsame.conf file ...SUCCESSFUL.
+[07/27/2016 14:49:00:574 UTC] Adding Agent parameters to /etc/httpd/conf/httpd.conf file ...SUCCESSFUL.
+
+[07/27/2016 14:49:00:587 UTC] SUMMARY OF AGENT INSTALLATION
+[07/27/2016 14:49:00:587 UTC] -----------------------------
+[07/27/2016 14:49:00:587 UTC] Agent instance name: Agent_002
+[07/27/2016 14:49:00:587 UTC] Agent Bootstrap file location: /opt/web_agents/apache24_agent/Agent_002/config/OpenSSOAgentBootstrap.properties
+[07/27/2016 14:49:00:587 UTC] Agent Configuration Tag file location /opt/web_agents/apache24_agent/Agent_002/config/OpenSSOAgentConfiguration.properties
+[07/27/2016 14:49:00:587 UTC] Agent Audit directory location: /opt/web_agents/apache24_agent/Agent_002/logs/audit
+[07/27/2016 14:49:00:588 UTC] Agent Debug directory location: /opt/web_agents/apache24_agent/Agent_002/logs/debug

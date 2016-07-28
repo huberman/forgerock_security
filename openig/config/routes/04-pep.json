@@ -1,0 +1,68 @@
+{
+  "handler": {
+    "type": "DispatchHandler",
+      "config": {
+        "bindings": [
+        {
+          "condition": "${request.cookies['iPlanetDirectoryPro'] == null}",
+          "handler": {
+            "type": "StaticResponseHandler",
+            "config": {
+              "status": 302,
+              "reason": "Found it!",
+              "headers": {
+                "Location": [
+                  "http://tis.oxyware.com:8081/openam/XUI/#login/&goto=${urlEncode(contexts.router.originalUri)}"
+                ],
+                "foo": ["wibble"]
+              },
+              "entity": "Redirecting to OpenAM..."
+            }
+          }
+        },
+        {
+          "comment": "This condition is optional, but included for clarity.",
+          "condition": "${request.cookies['iPlanetDirectoryPro'] != null}",
+          "handler": {
+            "type": "Chain",
+            "config": {
+              "filters": [
+              {
+                "type": "PolicyEnforcementFilter",
+                "config": {
+                  "openamUrl": "http://tis.oxyware.com:8081/openam/",
+                  "pepUsername": "tisdemo",
+                  "pepPassword": "policyadmin",
+                  "ssoTokenSubject": "${request.cookies['iPlanetDirectoryPro'][0].value}"
+                }
+              },
+              {
+                "name": "AddStaticHeader",
+                "type": "HeaderFilter",
+                "config": {
+                  "messageType": "REQUEST",
+                  "add": {
+                    "foo": ["${attributes.policy.attributes.cn}"],
+                    "foo4": ["${attributes.cn}"],
+                    "foo3": ["${attributes.TIS_fullname}"],
+                    "Set-Cookie": ["asdf=1234"]
+                  }
+                }
+              },
+              {
+                "name": "attribute printer",
+                "type": "ScriptableFilter",
+                "config": {
+                  "type": "application/x-groovy",
+                  "source": "request.headers.add('foo3','bar6'); attributes.each { k,v -> println k }; next.handle(context, request)"
+                }
+              }
+              ],
+              "handler": "ClientHandler"
+            }
+          }
+        }
+        ]
+      }
+  }
+}

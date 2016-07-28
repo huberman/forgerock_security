@@ -1,0 +1,5 @@
+php-hdrs:
+    image: php-hdrs
+    ports:
+    - 8082:80
+    

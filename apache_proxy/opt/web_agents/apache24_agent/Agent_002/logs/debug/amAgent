@@ -1,0 +1,25 @@
+2016-07-27 14:49:12.258       -1 6348:55e18fe7d1e0 all: =======================================
+2016-07-27 14:49:12.259       -1 6348:55e18fe7d1e0 all: Version: 3.3.4
+2016-07-27 14:49:12.259       -1 6348:55e18fe7d1e0 all: Revision: 12082
+2016-07-27 14:49:12.259       -1 6348:55e18fe7d1e0 all: Build Date: Jan 15 2015 17:13:06
+2016-07-27 14:49:12.259       -1 6348:55e18fe7d1e0 all: Build Machine: constable.internal.forgerock.com
+2016-07-27 14:49:12.259       -1 6348:55e18fe7d1e0 all: =======================================
+2016-07-27 14:49:12.264       -1 6348:55e18fe7d1e0 all: naming_validator(): validation disabled
+2016-07-27 14:49:12.324    Error 6351:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 14:49:12.324    Error 6352:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 14:49:12.324    Error 6356:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 14:49:12.325    Error 6354:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 14:49:12.329    Error 6355:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 14:49:12.340    Error 6354:55e18fe7d1e0 all: agent_worker_init() am_agent_init failed
+2016-07-27 14:49:12.340    Error 6351:55e18fe7d1e0 all: agent_worker_init() am_agent_init failed
+2016-07-27 14:49:12.340    Error 6356:55e18fe7d1e0 all: agent_worker_init() am_agent_init failed
+2016-07-27 14:49:12.341    Error 6355:55e18fe7d1e0 all: agent_worker_init() am_agent_init failed
+2016-07-27 14:49:12.341    Error 6352:55e18fe7d1e0 all: agent_worker_init() am_agent_init failed
+2016-07-27 14:49:27.451    Error 6354:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 14:49:28.302    Error 6387:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 14:49:28.305    Error 6387:55e18fe7d1e0 all: agent_worker_init() am_agent_init failed
+2016-07-27 15:13:26.050    Error 6356:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 15:14:10.015    Error 6355:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 15:32:39.598    Error 6352:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 15:32:49.428    Error 6387:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
+2016-07-27 15:51:58.678    Error 6354:55e18fe7d1e0 all: fetchAndUpdateAgentConfigCache():There is an error while fetching attributes by user amAdmin, using REST service. Status: REST attributes service encountered an error 
